@@ -84,7 +84,7 @@ class StackCtx
 			}
 		} else {
 
-			if (this.depth < 2000)
+			if (this.depth < 200)
 			{
 				this.depth++;
 				return;
