@@ -124,6 +124,8 @@ class StackCtx
 			});
 		}
 
+		this.genPromise();
+
 		this.state = State.RUNNING;
 		this.pendingSignal = false;
 
